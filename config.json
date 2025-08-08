@@ -1,0 +1,15 @@
+{
+    "base": {
+        "dark":{
+            "textColor1": "neutral-200",
+            "textColor2": "neutral-300",
+            "textColor3": "neutral-400",
+            "textColor4": "neutral-500",
+
+            "backgroundColor": "neutral-900",
+            "codeBlockBackgroundColor": "neutral-950",
+            "separatorColor": "neutral-300"
+
+        }
+    }
+}

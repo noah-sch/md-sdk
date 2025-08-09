@@ -1,15 +1,38 @@
 {
     "base": {
         "dark":{
-            "textColor1": "neutral-200",
-            "textColor2": "neutral-300",
-            "textColor3": "neutral-400",
-            "textColor4": "neutral-500",
+            "textColor1": "text-neutral-200",
+            "textColor2": "text-neutral-300",
+            "textColor3": "text-neutral-400",
+            "textColor4": "text-neutral-500",
 
-            "backgroundColor": "neutral-900",
-            "codeBlockBackgroundColor": "neutral-950",
-            "separatorColor": "neutral-300"
+            "backgroundColor": "bg-neutral-900",
+            "separatorColor": "bg-neutral-300"
 
         }
+    },
+    "code": {
+        "border": {
+            "enable": true,
+            "color": "border-neutral-800"
+        },
+        "background": {
+            "color": "bg-neutral-950"
+        },
+        "rounded": {
+            "enable": true,
+            "size": "rounded-sm"
+        },
+        "language": {
+            "enable": true,
+            "color": "text-neutral-600",
+            "size": "text-xs"
+        },
+        "copyIcon": {
+            "enable": true,
+            "color": "text-neutral-600",
+            "size": "text-xs"
+        }, 
+        "width": "w-full"      
     }
 }

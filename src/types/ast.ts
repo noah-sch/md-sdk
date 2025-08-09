@@ -24,7 +24,7 @@ export interface ParagraphNode extends ASTNode {
 export interface CodeBlockNode extends ASTNode {
     type: 'codeBlock';
     language?: string;
-    children: ASTNode[];
+    value: string;
 }
 
 export interface InlineCodeNode extends ASTNode {

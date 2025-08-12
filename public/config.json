@@ -1,0 +1,72 @@
+// public/config.json
+{
+  "theme": "custom",
+  "styles": {
+    "codeBlock": {
+      "backgroundColor": "#282c34",
+      "color": "#abb2bf",
+      "border": "1px solid #3e4451",
+      "borderRadius": "8px",
+      "padding": "20px",
+      "fontFamily": "Fira Code, Monaco, monospace",
+      "fontSize": "14px",
+      "lineHeight": "1.6"
+    },
+    "inlineCode": {
+      "backgroundColor": "#f0f0f0",
+      "padding": "3px 6px",
+      "borderRadius": "4px",
+      "fontFamily": "Fira Code, Monaco, monospace",
+      "fontSize": "90%",
+      "color": "#d73a49"
+    },
+    "heading": {
+      "h1": {
+        "fontSize": "36px",
+        "fontWeight": "700",
+        "color": "#2563eb",
+        "margin": "0 0 24px 0",
+        "borderBottom": "2px solid #e5e7eb"
+      },
+      "h2": {
+        "fontSize": "28px",
+        "fontWeight": "600",
+        "color": "#1d4ed8",
+        "margin": "32px 0 16px 0"
+      },
+      "h3": {
+        "fontSize": "22px",
+        "fontWeight": "600",
+        "color": "#1e40af",
+        "margin": "24px 0 12px 0"
+      }
+    },
+    "paragraph": {
+      "margin": "0 0 16px 0",
+      "lineHeight": "1.7",
+      "color": "#374151",
+      "fontSize": "16px"
+    },
+    "link": {
+      "color": "#2563eb",
+      "textDecoration": "none",
+      "fontWeight": "500"
+    },
+    "bold": {
+      "fontWeight": "700",
+      "color": "#1f2937"
+    },
+    "italic": {
+      "fontStyle": "italic",
+      "color": "#4b5563"
+    },
+    "list": {
+      "margin": "0 0 16px 0",
+      "paddingLeft": "24px"
+    },
+    "listItem": {
+      "margin": "6px 0",
+      "lineHeight": "1.6"
+    }
+  }
+}
